@@ -1,0 +1,154 @@
+body{
+    background-color: #eee;
+     font-family: 'Poppins', sans-serif;
+}
+
+.headerr div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+.page1 {
+ display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+.page1 img{
+    width:600px;
+    border-radius: 20px;
+}
+#button_get_started{
+    background-color: #eee;
+    border: 1px solid darkcyan;
+    border-radius: 10px;
+    padding: 7px;
+    color: darkcyan;
+    margin-top: 30px;
+}
+#button_get_started:hover{
+   background: linear-gradient(45deg ,brown ,royalblue);
+}
+.page1 div{
+    margin-right: 30px;
+    margin-left: 40px;
+}
+#text{
+    margin-top: 30px;
+
+}
+.clients {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.clients .logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.clients .logos img {
+  max-height: 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.clients .logos img:hover {
+  opacity: 1;
+}
+
+.testimonial-heading{
+    display: flex;
+   
+    justify-content: center;
+   align-items: center;
+   margin: 30px 0;
+   gap: 20px;
+
+}
+.testimonial-heading .line{
+     flex: 1;
+  height: 2px;
+  background-color: #007bff; 
+  max-width: 100px
+}
+.testimonial-heading h2{
+      margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  white-space: nowrap;
+  
+}
+.tag{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+   padding: 10px;
+}
+.photo1 img{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.photo1 img:hover{
+    transform: scale(1.2);
+
+}
+.photo1{
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+}
+.photo1 div{
+    padding: 10px;
+}
+.photo1 p{
+    color: gray;
+}
+.photos{
+   margin:0 15px ;
+   border: 1px solid gray;
+   border-radius: 10px;
+   background-color: white;
+}
+.contact{
+    background-image: url(./خريطه.jpg);
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.contact i{
+    color: #007bff;
+}
+.contact2{
+    width: 50%;
+}
+.contact2 div{
+    padding: 10px;
+    margin: 10px;
+}
+.contact2 button{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contact1{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.foo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textOfTag i{
+    color: yellow;
+}
