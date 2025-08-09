@@ -152,3 +152,88 @@ body{
 .textOfTag i{
     color: yellow;
 }
+
+
+@media (max-width: 768px) {
+  .page1 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page1 {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .page1 img {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #text {
+    margin-top: 10px;
+  }
+
+  .tag {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .photo1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo1 img {
+    width: 60%;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .contact2 {
+    width: 90%;
+  }
+
+  .contact1 {
+    text-align: center;
+  }
+
+  .testimonial-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .clients .logos {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo1 img {
+    width: 80%;
+  }
+
+  .testimonial-heading h2 {
+    font-size: 24px;
+  }
+
+  .page1 img {
+    width: 100%;
+  }
+
+  .contact2 {
+    width: 100%;
+  }
+}
+
+
